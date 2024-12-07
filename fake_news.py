@@ -56,4 +56,4 @@ if(prediction[0]==0):
   print("This is a Real News")
 else:
   print("This is a Fake News")
-Y = Y.fillna(most_frequent)
+print(f"Actual Label: {news_data['label'][4]}")  # Shows actual label for that article
